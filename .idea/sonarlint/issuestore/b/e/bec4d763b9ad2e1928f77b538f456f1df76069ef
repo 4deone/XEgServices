@@ -1,0 +1,16 @@
+
+]	java:S110"<This class has 9 parents which is greater than 5 authorized.(ÌæÉ¯ùÿÿÿÿ8Ù¶ô€‘/
+D
+java:S1659#"(Declare "idEmployer" on a separate line.(¢„§+8æç—‚‘/
+F
+java:S1604–"(Make this anonymous inner class a lambda(”ÓªÉ8«Íô‘/
+?
+java:S1659#"#Declare "myUID" on a separate line.(¢„§+8Ù¶ô€‘/
+w
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ù™İÓ8¡´È‘/
+Ÿ
+java:S1186Ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8¾¢”‘/
+N
+java:S1659$",Declare "edtvDureeTache" on a separate line.(±ĞÙ›ûÿÿÿÿ8Ù¶ô€‘/
+O
+java:S1659$"-Declare "edtvDescription" on a separate line.(±ĞÙ›ûÿÿÿÿ8Ù¶ô€‘/

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="@dimen/tx180dp"
+        android:layout_height="@dimen/tx180dp"
+        android:layout_marginTop="@dimen/tx5dp"
+        android:layout_marginBottom="@dimen/tx5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vipcall"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/rlTwo"
+        android:layout_below="@+id/ivLogo"
+        android:layout_above="@+id/tvFooter"
+        android:paddingStart="@dimen/tx15dp"
+        android:paddingEnd="@dimen/tx15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:text="@string/nom_de_l_utilisateur"
+            android:textSize="@dimen/tx15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvUserNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNom"
+            android:textColor="?attr/textColor"
+            android:text="@string/nom_de_l_utilisateur"
+            android:paddingStart="@dimen/tx15dp"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_below="@+id/tvUserNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:text="@string/t_l_phone_de_l_utilisateur"
+            android:textSize="@dimen/tx15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvUserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPhone"
+            android:textColor="?attr/textColor"
+            android:text="@string/t_l_phone_de_l_utilisateur"
+            android:paddingStart="@dimen/tx15dp"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:layout_below="@+id/tvUserPhone"
+            android:text="@string/email_de_l_utilisateur"
+            android:textSize="@dimen/tx15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEmail"
+            android:textStyle="italic"
+            android:textColor="?attr/textColor"
+            android:text="@string/email_de_l_utilisateur"
+            android:paddingStart="10dp"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvCni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:layout_below="@+id/tvUserEmail"
+            android:text="@string/cni_de_l_utilisateur"
+            android:textSize="@dimen/tx15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvUserCni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCni"
+            android:textStyle="italic"
+            android:textColor="?attr/textColor"
+            android:text="@string/cni_de_l_utilisateur"
+            android:paddingStart="10dp"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvQuartier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:layout_below="@+id/tvUserCni"
+            android:text="@string/quartier_de_l_utilisateur"
+            android:textSize="@dimen/tx15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvUserQuartier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvQuartier"
+            android:textStyle="italic"
+            android:textColor="?attr/textColor"
+            android:text="@string/quartier_de_l_utilisateur"
+            android:paddingStart="10dp"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvPoste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:layout_below="@+id/tvUserQuartier"
+            android:text="@string/poste_de_l_utilisateur"
+            android:textSize="@dimen/tx15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvUserPoste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPoste"
+            android:textStyle="italic"
+            android:textColor="?attr/textColor"
+            android:text="@string/poste_de_l_utilisateur"
+            android:paddingStart="10dp"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swChangeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvUserPoste"
+            android:paddingStart="10dp"
+            android:text="@string/langues"
+            android:textColor="?attr/textColor"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swChangeTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/swChangeLanguage"
+            android:paddingStart="10dp"
+            android:text="@string/mode_affichage"
+            android:textColor="?attr/textColor"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvDeconnexion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:layout_below="@+id/swChangeTheme"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:text="@string/deconnexion"
+            android:drawablePadding="@dimen/tx10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry"
+            app:drawableStartCompat="@drawable/ic_action_logout" />
+
+        <TextView
+            android:id="@+id/tvDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:layout_below="@+id/tvDeconnexion"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:text="@string/delete_account"
+            android:drawablePadding="@dimen/tx10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry"
+            app:drawableStartCompat="@drawable/ic_action_delete" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="?attr/textColor"
+        android:text="@string/eg_services_by_deone"
+        android:paddingTop="@dimen/tx5dp"
+        android:paddingBottom="@dimen/tx5dp"
+        android:textSize="15sp"
+        tools:ignore="RtlSymmetry"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_action_edit"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

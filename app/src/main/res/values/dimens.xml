@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tx10dp" >10dp</dimen>
+    <dimen name="tx200dp" >200dp</dimen>
+    <dimen name="tx20dp">20dp</dimen>
+    <dimen name="tx14sp">14sp</dimen>
+    <dimen name="tx80dp">80dp</dimen>
+    <dimen name="tx5dp">5dp</dimen>
+    <dimen name="tx100dp">100dp</dimen>
+    <dimen name="tx150dp">150dp</dimen>
+    <dimen name="tx15dp">15dp</dimen>
+    <dimen name="tx20sp">20sp</dimen>
+    <dimen name="tx15sp">15sp</dimen>
+    <dimen name="tx180dp">180dp</dimen>
+</resources>

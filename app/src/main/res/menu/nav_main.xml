@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item  android:id="@+id/menu_calendar"
+        android:title= "@string/calendrier"
+        android:visible="false"
+        android:icon="@drawable/ic_action_planning"
+        app:showAsAction="always"/>
+
+    <item  android:id="@+id/menu_taches"
+        android:title= "@string/ajouter_une_tache"
+        android:visible="false"
+        app:showAsAction="withText"/>
+
+    <item  android:id="@+id/menu_devis"
+        android:title= "@string/ajouter_un_d_vis"
+        android:visible="false"
+        app:showAsAction="withText"/>
+
+    <item  android:id="@+id/menu_parametres"
+        android:title= "@string/settings"
+        android:visible="false"
+        app:showAsAction="withText"/>
+
+    <item  android:id="@+id/menu_apropos"
+        android:title= "@string/a_propos"
+        android:visible="false"
+        app:showAsAction="withText"/>
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTaskActivity">
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="@dimen/tx80dp"
+        android:layout_height="@dimen/tx80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/vipcall" />
+
+    <RelativeLayout
+        android:layout_below="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fabSave"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edtvTitreTache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_action_titre"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/titre_de_la_t_che"
+            android:inputType="textCapSentences"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/edtvDureeTache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtvTitreTache"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_action_chrono"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/dur_e_de_la_t_che"
+            android:inputType="number"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp"
+            android:autofillHints="" />
+
+        <AutoCompleteTextView
+            android:id="@+id/atvEmployer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_below="@+id/edtvDureeTache"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_action_user"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/employer"
+            android:inputType="textCapWords"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/edtvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/atvEmployer"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:gravity="top"
+            android:drawableStart="@drawable/ic_action_description"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/description_de_la_t_che"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minHeight="200dp"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp"
+            android:autofillHints="" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_action_save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+
+K
+java:S1604”"(Make this anonymous inner class a lambda(Ïë£ùÿÿÿÿ8êí°“‘/
+Y
+java:S1874‘"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8Ò¿¢“‘/
+]	java:S125S"<This block of commented-out lines of code should be removed.(ˆŠÖ“øÿÿÿÿ8Ãâƒ¤/
+^	java:S107ÿ"<Method has 9 parameters, which is greater than 7 authorized.(Í ¥­ÿÿÿÿÿ8Ò¿¢“‘/
+Y
+java:S1874²"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8Ò¿¢“‘/
+^	java:S125¤"<This block of commented-out lines of code should be removed.(ÎÈå¼şÿÿÿÿ8êí°“‘/
+^	java:S125¡"<This block of commented-out lines of code should be removed.(î·¶ôüÿÿÿÿ8êí°“‘/
+K
+java:S1604ù"(Make this anonymous inner class a lambda(„¬é¿øÿÿÿÿ8Ò¿¢“‘/
+K
+java:S1604ç"(Make this anonymous inner class a lambda(Í™Àïúÿÿÿÿ8Ò¿¢“‘/
+F
+java:S1604é"(Make this anonymous inner class a lambda(Î¬¯”8Ò¿¢“‘/
+n
+java:S1192‘"KDefine a constant instead of duplicating this literal "emQuartier" 3 times.(³Èÿòúÿÿÿÿ8Ò¿¢“‘/
+U
+java:S1874³"2Remove this use of "setMessage"; it is deprecated.(Ò—å ıÿÿÿÿ8Ò¿¢“‘/
+U
+java:S1874’"2Remove this use of "setMessage"; it is deprecated.(õí£¾øÿÿÿÿ8Ò¿¢“‘/
+Y
+java:S1874²"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8ç±úú/
+K
+java:S1604Ï"(Make this anonymous inner class a lambda(Ïë£ùÿÿÿÿ8Ò¿¢“‘/
+K
+java:S1604ê"(Make this anonymous inner class a lambda(Ÿ ¹ÿÿÿÿÿ8½Å…›‘/
+Y
+java:S1874‘"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8êÛú/
+K
+java:S1604…"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8Ò¿¢“‘/
+K
+java:S1604ã"(Make this anonymous inner class a lambda(Ïë£ùÿÿÿÿ8½Å…›‘/
+]	java:S125{"<This block of commented-out lines of code should be removed.(ö´Š§ÿÿÿÿÿ8ÅÈ¡“‘/
+Y
+java:S1874²"6Remove this use of "ProgressDialog"; it is deprecated.(ÿ ¿üÿÿÿÿ8Ò¿¢“‘/
+F
+java:S1604"(Make this anonymous inner class a lambda(Î¬¯”8Ò¿¢“‘/
+K
+java:S1604ß"(Make this anonymous inner class a lambda(íº©éúÿÿÿÿ8Ò¿¢“‘/
+F
+java:S1604ü"(Make this anonymous inner class a lambda(Î¬¯”8êí°“‘/
+Y
+java:S1874ô"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8ç±úú/
+^	java:S125‚"<This block of commented-out lines of code should be removed.(ö´Š§ÿÿÿÿÿ8á¦¢“‘/
+Y	java:S125Ò"<This block of commented-out lines of code should be removed.(î¢¬à8„²™˜‘/
+J
+java:S1604x"(Make this anonymous inner class a lambda(Ïë£ùÿÿÿÿ8ÄÈ¡“‘/
+K
+java:S1604§"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8Ò¿¢“‘/
+d
+java:S1192"FDefine a constant instead of duplicating this literal "emCni" 3 times.(°Ê†·8•±ùƒ‘/
+K
+java:S1604¤"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8Ò¿¢“‘/
+K
+java:S1604Ç"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8Ò¿¢“‘/
+Ÿ
+java:S1186ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8Ò¿¢“‘/
+Y
+java:S1874"6Remove this use of "ProgressDialog"; it is deprecated.(ÿ ¿üÿÿÿÿ8Ò¿¢“‘/
+E
+java:S1604b"(Make this anonymous inner class a lambda(Î¬¯”8Ãâƒ¤/
+F
+java:S1604¸"(Make this anonymous inner class a lambda(Î±àÅ8Ò¿¢“‘/
+F
+java:S1604–"(Make this anonymous inner class a lambda(³Ö×•8Ò¿¢“‘/
+U
+java:S1874Š"2Remove this use of "setMessage"; it is deprecated.(…É˜Ùÿÿÿÿÿ8êí°“‘/
+K
+java:S1604ì"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8Ò¿¢“‘/
+U
+java:S1874õ"2Remove this use of "setMessage"; it is deprecated.(ùÔèŞıÿÿÿÿ8Ò¿¢“‘/
+J
+java:S1604"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8á¦¢“‘/
+K
+java:S1604™"(Make this anonymous inner class a lambda(Ïë£ùÿÿÿÿ8Ò¿¢“‘/
+K
+java:S1604š"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8êí°“‘/
+Y
+java:S1874‰"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8êí°“‘/
+F
+java:S1604“"(Make this anonymous inner class a lambda(Î¬¯”8Ò¿¢“‘/
+d
+java:S1192Œ"FDefine a constant instead of duplicating this literal "emNom" 3 times.(” Ô˜8Œ”ôƒ‘/
+E
+java:S1604N"(Make this anonymous inner class a lambda(Î¬¯”8Ãâƒ¤/
+Y
+java:S1874ô"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8Ò¿¢“‘/
+f
+java:S1192"HDefine a constant instead of duplicating this literal "emPoste" 3 times.(İñİì8Ö¶ûƒ‘/
+o
+java:S1192"LDefine a constant instead of duplicating this literal "emTelephone" 3 times.(²­îÃüÿÿÿÿ8Ò¿¢“‘/
+R
+java:S1068."5Remove this unused "sharedPreferences" private field.(„ºÌ¬8ö©€¸/
+Y
+java:S1874‰"6Remove this use of "ProgressDialog"; it is deprecated.(½¥Òöşÿÿÿÿ8Ò¿¢“‘/
+F
+java:S1604±"(Make this anonymous inner class a lambda(¨È÷8Ò¿¢“‘/
+Y	java:S125µ"<This block of commented-out lines of code should be removed.(ÔÊ®Ì8Ò¿¢“‘/

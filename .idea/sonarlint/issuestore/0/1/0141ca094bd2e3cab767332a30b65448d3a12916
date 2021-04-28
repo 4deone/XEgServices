@@ -1,0 +1,20 @@
+
+F
+java:S1659")Declare "edtvConfirm" on a separate line.(‰Ëµ‰8¬ŒÍ¹/
+G
+java:S1659"*Declare "edtvQuartier" on a separate line.(‚Áæ8úÇ¨ö/
+Y
+java:S3972r"7Move this "if" to a new line or add the missing "else".(ñ–İªøÿÿÿÿ8èÓú¹/
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(…Ø“¡øÿÿÿÿ
+O
+java:S1659"-Declare "edtvAdresseMail" on a separate line.( úáÑùÿÿÿÿ8¦«Ì¹/
+p
+java:S1450"SRemove the "lang" field and declare it as a local variable in the relevant methods.(›±Ù8ø¦ÏÉ/
+G
+java:S1659"%Declare "edtvCni" on a separate line.( úáÑùÿÿÿÿ8ûË¹/
+I
+java:S1659",Declare "edtvMotdepasse" on a separate line.(‰Ëµ‰8ÄÆ¹/
+~
+java:S1450"aRemove the "saveAppPreferences" field and declare it as a local variable in the relevant methods.(øÚ¼û8¯Ëû/
+M
+java:S1659"+Declare "edtvTelephone" on a separate line.(Ù¦‡úÿÿÿÿ8ÓĞË¹/

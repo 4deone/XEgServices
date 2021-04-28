@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="@dimen/tx80dp"
+        android:layout_height="@dimen/tx80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/vipcall" />
+
+    <RelativeLayout
+        android:layout_below="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fabConnexion"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edtvNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_action_user"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/votre_nom_complet"
+            android:inputType="textCapWords"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp" />
+
+        <EditText
+            android:id="@+id/edtvTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtvNom"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_action_phone"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/votre_t_l_phone"
+            android:inputType="number"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp" />
+
+        <EditText
+            android:id="@+id/edtvQuartier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtvTelephone"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_action_quartier"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/you_locate"
+            android:inputType="textCapWords"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp" />
+
+        <EditText
+            android:id="@+id/edtvCni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtvQuartier"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_action_cni"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/votre_num_ro_de_cni"
+            android:inputType="number"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp" />
+
+        <EditText
+            android:id="@+id/edtvAdresseMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtvCni"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/votre_adresse_mail"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp" />
+
+        <EditText
+            android:id="@+id/edtvMotdepasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtvAdresseMail"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/votre_mot_de_passe"
+            android:inputType="textPassword"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp" />
+
+        <EditText
+            android:id="@+id/edtvConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tx20dp"
+            android:layout_below="@+id/edtvMotdepasse"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:background="@drawable/edtv_bg"
+            android:drawableStart="@drawable/ic_lock"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:drawablePadding="@dimen/tx10dp"
+            android:hint="@string/confirmez_votre_mot_de_passe"
+            android:inputType="textPassword"
+            android:padding="@dimen/tx20dp"
+            android:textSize="@dimen/tx14sp" />
+
+        <TextView
+            android:id="@+id/tvConnexion"
+            android:layout_below="@+id/edtvConfirm"
+            android:textColor="@color/vert"
+            android:text="@string/se_connecter"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/tx10dp"
+            android:layout_marginEnd="@dimen/tx20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabConnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_action_save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+
+
+java:S1319"pThe type of the "liste" object should be an interface such as "List" rather than the implementation "ArrayList".(ê“ÕŸ8Š¤¾‘/
+S
+java:S1197"8Move the array designator from the variable to the type.(§Ôÿâ8ïŒ’ƒ‘/
+Z
+java:S1144":Remove this unused private "showEditProfileDialog" method.(„Ãë³ûÿÿÿÿ8ïŒ’ƒ‘/

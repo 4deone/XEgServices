@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF98AFC7</color>
+    <color name="purple_700_nigth">#FF191970</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="rose">#FFC0CB</color>
+    <color name="deep_pink">#FF1493</color>
+    <color name="orange">#FFA500</color>
+    <color name="marron">#8B4513</color>
+    <color name="vert">#006400</color>
+    <color name="jaune">#FFFF00</color>
+    <color name="rouge">#FF0000</color>
+    <color name="bleu">#00008B</color>
+    <color name="dark_blue">#483D8B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColor_jour">#FF000000</color>
+    <color name="textColor_nuit">#FFFFFFFF</color>
+    <color name="titreTextColor_jour">#FF6200EE</color>
+    <color name="titreTextColor_nuit">#FFBB86FC</color>
+    <color name="backgroundColor_jour">#FF98AFC7</color>
+    <color name="backgroundColor_nuit">#FF696969</color>
+    <color name="backgroundEdtv_nuit">#FFC0CB</color>
+    <color name="backgroundEdtv_jour">#FF98AFC7</color>
+    <color name="backgroundEdtvBorder_jour">#FF6200EE</color>
+    <color name="backgroundEdtvBorder_nuit">#00008B</color>
+</resources>

@@ -1,0 +1,13 @@
+
+]
+java:S1874D";Remove this use of "updateConfiguration"; it is deprecated.(¯¥“€úÿÿÿÿ8şÌû/
+O
+java:S1128"3Remove this unused import 'android.content.Intent'.(³ğ‹G8İ²û/
+P
+java:S1874B".Remove this use of "locale"; it is deprecated.(¬¨ÿçûÿÿÿÿ8şÌû/
+[
+java:S1128"9Remove this unused import 'android.app.TaskStackBuilder'.(—­ŠËüÿÿÿÿ8İ²û/
+_
+java:S1128"BRemove this unused import 'cm.deone.corp.egservices.MainActivity'.(¬âå•8İ²û/
+N
+java:S1128"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8İ²û/
